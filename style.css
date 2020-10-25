@@ -1,0 +1,116 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  margin: auto;
+}
+
+#top {
+  /* The size of the top banner */
+  width: 100vw;
+  height: 25vh;
+
+  /* This is the background image of the top banner */
+  background-image: url("images/night_sky_bg.gif");
+
+  /* Aligning the text */
+  text-align: center;
+  padding: 9vw 0;
+  vertical-align: middle;
+}
+
+#content {
+  /* Aligning the text */
+  text-align: center;
+  padding: 15vw 25vw;
+  vertical-align: middle;
+}
+
+#bottom {
+  /* The size of the top banner */
+  width: 100vw;
+  height: 1vh;
+
+  /* This is the background image of the top banner */
+  background-image: url("images/night_sky_bg.gif");
+
+  /* This is the color of the text */
+  color: #ffffff;
+
+  /* This is the font of the text */
+  font-family: 'Open Sans', sans-serif;
+
+  /* Aligning the text */
+  text-align: center;
+  padding: 9vw 0;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  /* This is the color of the text */
+  color: #ffffff;
+
+  /* This is the size of the text */
+  font-size: 100px;
+
+  /* This is the font of the text for all text labeled as h1 */
+  font-family: 'Mansalva', cursive;
+}
+
+h2 {
+  /* This is the color of the text in the top banner */
+  color: #7749b8;
+
+  /* This is the size of the text */
+  font-size: 40px;
+
+  /* This is the font of the text for all text labeled as h1 */
+  font-family: 'Mansalva', cursive;
+
+  padding: 40px 0px 0px 0px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0px 0px 0px;
+}
+
+ul {
+  text-align: center;
+  list-style: inside;
+  padding: 0vw 0vw;
+
+}
+
+a:link {
+  color: #533281;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #c96ded;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d3b7f7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #9e3dff;
+  background-color: transparent;
+  text-decoration: underline;
+}
